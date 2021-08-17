@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}/style.css" />
+
+        <title>{{ .Site.Title }}</title>
+
+        <meta charset="utf-8" />
+        <meta name="title" content="{{.Site.Title}}">
+        <meta name="description" content="Personal Home Page" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header" id="header">
+                <div class="title">
+                    {{ .Site.Title }}
+                </div>
+                <nav class="nav">
+                    <a href="">Home</a>
+                    <a href="">Projects</a>
+                </nav>
+            </div>
+            <div class="profile">
+                <p><img src="{{ .Site.BaseURL }}/images/dexter.jpg" alt="dexter">
+                    {{ .Content }}
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+

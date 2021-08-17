@@ -1,0 +1,54 @@
+
+:root {
+    background: white;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width:960px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 70px; 
+    border:1px solid grey;
+}
+
+.header {
+    padding-top: 60px;
+    padding-left: 40px;
+    margin: auto;
+    width: 130%;
+    flex-wrap: wrap;
+    display: flex; 
+    font-size: 25px;
+}
+
+.header .title {
+    font-size: 50px;
+}
+
+.header .nav {
+    padding-left: 330px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.header .nav a {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.profile {
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+img {
+    float: right;
+    width: 215px;
+    height: 245px;
+    margin-left: 30px;
+    padding-right: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
