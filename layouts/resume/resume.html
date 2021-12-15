@@ -5,18 +5,98 @@
 
         <meta charset="utf-8" />
         <meta name="title" content="{{.Site.Title}}">
-        <meta name="description" content="Personal Home Page" />
+        <meta name="description" content="Resume" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
 
     <body>
         <div class="container">
+
             <div class="header" id="header" href="">
-                <div class="title" href="">
+                <div class="title" id="title" href="">
                     <a href="{{ .Site.BaseURL }}" style="text-decoration: inherit; color: inherit">{{ .Site.Title }}</a>
                 </div>
-                {{ .Content }}
             </div>
+
+            <div class="contact" id="contact">
+                <p  style="text-align:left;">
+                    +91 9731936968
+                    <span style="float:right;">
+                    marshel.abraham@gmail.com
+                    </span>
+                </p>
+            </div>
+
+            <div class="work" id="work">
+                <h5 style="font-size: 25px;">WORK EXPERIENCE</h5>
+                <hr/>
+
+                <!--  FIREEYE  -->
+                <div class="company" id="company">
+                    <p  style="text-align:left;">
+                        <b>FIREEYE</b>
+                        <span style="float:right;">
+                        <b>2020-Present</b>
+                        </span>
+                    </p>
+                </div>
+                <ul>
+                    <li>Develop FENET Enrollment Service along with automated Cloud native deployment</li>
+                    <li>Messaging System for Distribution of Intel across fireeye appliances</li>
+                </ul>
+
+                <!--  RIFT  -->
+                <p  style="text-align:left;">
+                    <b>RIFT</b>
+                    <span style="float:right;">
+                    <b>2016-2020</b>
+                    </span>
+                </p>
+                <ul>
+                    <li>Designed highly available Platform that run on all Cloud services like AWS, GCP</li>
+                    <li>Scale backend horizontally by integrating a new messaging system</li>
+                    <li>Optimize operational data fetch latency upto 20x using a caching layer</li>
+                </ul>
+
+                <!--  HARMAN  -->
+                <p  style="text-align:left;">
+                    <b>HARMAN</b>
+                    <span style="float:right;">
+                    <b>2012-2016</b>
+                    </span>
+                </p>
+                <ul>
+                    <li>Automotive Infotainment stack for AM/FM Tuners</li>
+                    <li>Emebede Full stack applications for online radio streaming like Aha / Pandora</li>
+                    <li>Champion code quality with unit test staic analysis and automated workflows</li>
+                </ul>
+
+            </div>
+
+            <div class="skills" id="skills">
+                <h5 style="font-size: 25px;">SKILLS</h5>
+                <hr/>
+                <p>Proficient : Python Linux Redis</p>
+                <p>Competent  : Golang MongoDB Docker AWS</p>
+                <p>Novice     : HTML\CSS Java Kubernetes</p>
+            </div>
+
+            <div class="education" id="education">
+                <h5 style="font-size: 25px;">EDUCATION</h5>
+                <hr/>
+                <p  style="text-align:left;">
+                    <b>KERALA UNIVERSITY</b>
+                    <span style="float:right;">
+                    <b>2008-2012</b>
+                    </span>
+                </p>
+                <ul>
+                    <li>Computer Science GPA 8.2</li>
+                    <li>Project: SICvm, a virtual machine to emulate SIC programs</li>
+                    <li>Coursework: Operating Systems Data structures Algorithms Databases</li>
+                </ul>
+            </div>
+
         </div>
     </body>
 

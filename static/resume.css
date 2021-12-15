@@ -1,61 +1,42 @@
 
 :root {
     background: white;
-    font-family: Inter, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
     width:960px;
     margin: auto;
     padding-left: 50px;
-    padding-right: 70px; 
+    padding-right: 70px;
 }
 
 .header {
-    padding-top: 60px;
+    padding-top: 0px;
     padding-left: 40px;
     margin: auto;
     width: 130%;
     flex-wrap: wrap;
     display: flex; 
-    font-size: 25px;
 }
 
 .header .title {
-    font-size: 50px;
+    font-size: 40px;
+    padding-left: 250px;
 }
 
-.header .nav {
-    padding-left: 330px;
-    padding-top: 20px;
-    padding-right: 100px;
+.contact {
+    font-size: 20px;
 }
 
-.header .nav a {
-    display: inline-block;
-    margin-left: 30px;
+.work {
+    font-size: 20px;
 }
 
-.profile {
-    padding-left: 35px;
-    padding-top: 30px;
-    font-size: x-large;
+.skills {
+    font-size: 20px;
 }
 
-img {
-    float: right;
-    width: 235px;
-    height: 245px;
-    margin-left: 30px;
-    padding-right: 20px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-
-.footer {
-    padding-top: 45px;
-    text-align: center;
-    font-size: 1.00em;
-    color: var(--grey);
-    margin: 30px 0;
+.education {
+    font-size: 20px;
 }
