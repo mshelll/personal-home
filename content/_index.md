@@ -1,15 +1,10 @@
----
-# title: "First Last"
----
+
+I believe in making the world an easier place to live. Every day I am overwhelmed by the power of code and how it lets humans collaborate
+
+I discovered programming in 2006, right after getting a personal computer. Soon I realized the only subject that interests me in academia is computer science. Ever since I have used my honest expression of code to build software that is easy to use.
+
+My professional experience range across multiple domains like automotive infotainment, network function virtualization cybersecurity. I started my career hacking embedded systems and gradually transitioned to distributed systems.
+
+Sometimes I bang my head against a [leetcode](https://leetcode.com/mba4cob/) problem. I used to maintain a [blog](https://linuxdrug.wordpress.com/) while exploring the world of open source through Linux.
 
 I am a software developer. I read, write code as a hobby. I am fortunate enough to make a living out of it as well.
-
-I discovered programming in 2006, right after getting a personal computer. Starting with Java the Object Oriented 
-style attracted me initially to programming. That soon transferred to C++ and I often get overwhelmed by its complexity.
-These days I mostly write programs in Go, Python
-
-My professional experience range across multiple domains like automotive infotainment, energy management, network function virtualization and cybersecurity. I started my career hacking embeded systems and gradually transitioned to distributed systems which was something I always wanted to work on. 
-
-Somewhere in my early twenties I developed preferences for certain aesthetics and adopted highly opinionated paradigms for my daily tasks. I used to maintain a [blog](https://linuxdrug.wordpress.com/) when I explored the world of open source through Linux.
-
-
