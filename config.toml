@@ -1,6 +1,7 @@
 baseURL = "https://marshel.in"
 languageCode = "en-us"
 title = "Marshel Abraham"
+googleAnalytics = "UA-123-45"
 
 
 
