@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {{ template "_internal/google_analytics.html" . }}
         <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}/style.css" />
 
         <title>{{ .Site.Title }}</title>
@@ -9,8 +10,6 @@
         <meta name="title" content="{{.Site.Title}}">
         <meta name="description" content="Personal Home Page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {{ template "_internal/google_analytics.html" . }}
-
     </head>
 
     <body>
