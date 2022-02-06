@@ -1,0 +1,21 @@
+:root {
+    background: white;
+    font-family: Inter, sans-serif;
+}
+
+.header .title {
+    padding-left: 100px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.shelve {
+   display: flex;
+   padding: 50px;
+   flex-wrap: wrap;
+}
+
+.shelve img {
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+}
