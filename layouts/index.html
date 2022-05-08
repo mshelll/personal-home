@@ -2,6 +2,7 @@
 <html>
     <head>
         {{ template "_internal/google_analytics.html" . }}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}/style.css" />
 
         <title>Marshel Abraham | Software | Developer | Engineer | India</title>
@@ -33,12 +34,13 @@
         </div>
     </body>
 
-	<footer class="footer">
-		Marshel Abraham &copy; 2022
-		{{ if ne (dateFormat "2006" now) "2021" }}
-			- {{ dateFormat "2006" now }}
-		{{ end }}
-	</footer>
+    <footer class="footer">
+        <div class="social">
+            <a class="linkedin-icon" href="https://www.linkedin.com/in/marshel-abraham/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a class="github-icon" href="https://github.com/mshelll/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a class="twitter-icon" href="https://twitter.com/AbrahamMarshel/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+    </footer>
 
 </html>
 

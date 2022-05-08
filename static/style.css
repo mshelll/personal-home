@@ -52,10 +52,16 @@ img {
     padding-bottom: 45px;
 }
 
-.footer {
-    padding-top: 45px;
-    text-align: center;
+
+.footer .social {
+    padding-left: 300px;
+    text-align: left;
     font-size: 1.00em;
-    color: var(--grey);
-    margin: 30px 0;
+    margin: 40px 0;
+}
+
+.footer .social a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: large;
 }
