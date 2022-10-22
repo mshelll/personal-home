@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Projects</title>
+        <link href="{{ .Site.BaseURL }}/projects.css" rel="stylesheet">
+        <link href="{{ .Site.BaseURL }}/style.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="title" content="{{.Site.Title}}">
+        <meta name="description" content="Resume" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div class="header" id="header">
+            <div class="title" id="title" href="">
+                <a href="{{ .Site.BaseURL }}" style="text-decoration: inherit; color: inherit">{{ .Site.Title }}</a>
+            </div>
+            <nav class="nav">
+                <a href="{{ .Site.BaseURL }}/books">Books</a>
+                <a href="{{ .Site.BaseURL }}/projects">Projects</a>
+            </nav>
+        </div>
+        <ul class="shelve" type="none">
+            <li class="item">
+                <div class="project">
+                    <a class="title" href="https://dashboard-2ac58.web.app/">india-dashboard</a>
+                    <p class="description">
+                    Aggregate public data relevant to India. 
+                    </p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="project">
+                    <a class="title" href="https://github.com/mshelll/maxheap">maxheap</a>
+                    <p class="description">
+                        A light wrapper over python heapq library with max heap property
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

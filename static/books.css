@@ -11,11 +11,13 @@
 .shelve {
    display: flex;
    padding: 50px;
+   max-width: 80%;
    flex-wrap: wrap;
 }
 
-.shelve img {
+.project {
     height: 300px;
     width: 200px;
     padding: 20px;
 }
+
