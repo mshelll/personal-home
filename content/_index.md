@@ -1,10 +1,11 @@
+I'm a software engineer passionate about building intuitive and scalable solutions. With over a decade of experience across embedded systems, distributed computing, and cybersecurity, I specialize in creating software that makes complex problems simple.
 
-I believe in making the world an easier place to live. Every day I am overwhelmed by the power of code and how it lets humans collaborate
+My journey in technology began at sixteen when I discovered programming through my first personal computer. This early exposure to computer science shaped my career path and continues to drive my approach to software development—focusing on clean, maintainable code that delivers real value to users.
 
-I discovered programming at sixteen, right after getting a personal computer. Soon I realized the only subject that interests me in academia is computer science. Ever since I have used my honest expression of code to build software that is easy to use.
+Throughout my career, I've worked across diverse domains including automotive infotainment systems, network function virtualization, and cybersecurity applications. I started with embedded systems development and have evolved to architecting distributed systems that handle real-world challenges.
 
-My professional experience range across multiple domains like automotive infotainment, network function virtualization cybersecurity. I started my career hacking embedded systems and gradually transitioned to distributed systems.
+When I'm not coding, I enjoy solving algorithmic problems on [LeetCode](https://leetcode.com/mba4cob/) and contributing to open source projects. I previously maintained a technical blog exploring Linux and open source technologies, and I'm always eager to learn new technologies and methodologies.
 
-Sometimes I bang my head against a [leetcode](https://leetcode.com/mba4cob/) problem. I used to maintain a [blog](https://linuxdrug.wordpress.com/) while exploring the world of open source through Linux.
+I'm actively exploring and integrating AI technologies into my development workflow, leveraging automation and AI-powered tools to build more intelligent and efficient solutions. This includes experimenting with AI-assisted development tools and staying current with emerging AI frameworks and best practices.
 
-I am a software developer. I read, write code as a hobby. I am fortunate enough to make a living out of it as well.
+I believe great software comes from understanding both the technical requirements and the human needs behind them. My goal is to build solutions that not only work efficiently but also provide an excellent user experience.
